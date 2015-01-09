@@ -2,7 +2,7 @@ import scrapy
 
 class ScienceSpider(scrapy.Spider):
     name = "getScience"
-    allowed_domains = ["newscientist.com"]
+    allowed_domains = ["wikipedia.org"]
     start_urls = [
                     "http://en.wikipedia.org/wiki/Willis_Steell"
                  ]
